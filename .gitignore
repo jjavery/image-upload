@@ -58,4 +58,4 @@ typings/
 .env
 
 test/fixtures/public
-examples/simple/public
+examples/simple/public/files
