@@ -1,0 +1,24 @@
+{
+  "name": "image-upload",
+  "version": "0.1.0",
+  "description": "Express middleware to process and store image uploads",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "James P. Javery",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.0",
+    "fs-blob-store": "^5.2.1",
+    "gm": "^1.23.0",
+    "mime": "^1.3.6",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.15.2",
+    "mocha": "^3.3.0",
+    "request": "^2.81.0"
+  }
+}
